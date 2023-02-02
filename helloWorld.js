@@ -5,4 +5,7 @@ let message = "Hello World!";   // variable assigned the message "Hello World"
 
 message = "Git is Awesome!"; // variable is reassigned a new message
 
-console.log(message);   // the message is then printed out
+message = prompt("Please enter a message:");  // variable reassigned again to accept input from the user
+
+console.log(message);   // the user input is then printed out
+
